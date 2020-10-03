@@ -1,24 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Iframe from 'react-iframe'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"
+    style = {{
+      "margin-top": "50px",
+      "margin": "auto",
+      "width": "50%",
+      "border": "3px",
+      "padding": "10px"
+      }}>
+      <Iframe url="https://airtable.com/embed/shr5HNAiyZjXLPwOK?backgroundColor=blue&viewControls=on" 
+        width="100%" height="700"
+        id="myId"
+        className="airtable-embed"
+        display="initial"
+        style={{"background":"transparent","border":"1px solid #ccc"}}
+        position="relative"/>
     </div>
   );
 }
