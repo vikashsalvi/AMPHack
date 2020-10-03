@@ -9,7 +9,7 @@ function App() {
     style = {{
       "margin-top": "50px",
       "margin": "auto",
-      "width": "50%",
+      "width": "80%",
       "border": "3px",
       "padding": "10px"
       }}>
