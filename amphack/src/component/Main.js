@@ -18,6 +18,7 @@ class Main extends React.Component {
                   </Typography>                
                 </Toolbar>
             </AppBar>
+            <br />
             <div
             style = {{
             "margin-top": "50px",
