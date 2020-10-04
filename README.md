@@ -14,14 +14,14 @@ making a comuuter wait and be safe by providing contactless transcation.
 
 Screenshots
 
- <img src="screenshots/01.png" width="400" height="800" />
+ <img src="screenshots/01.png" width="400" height="800" /> 
+<img src="screenshots/02.png" width="400" height="800" />
+<img src="screenshots/04.png" width="400" height="800" />
+<img src="screenshots/05.png" width="400" height="800" />
+<img src="screenshots/06.png" width="400" height="800" />
+<img src="screenshots/03.png" width="400" height="800" />
 
-![Screenshot](screenshots/01.png =250x250)
+Libraries used
 
-![Screenshot](screenshots/02.png =250x250)
-
-![Screenshot](screenshots/05.png =250x250)
-
-![Screenshot](screenshots/06.png =250x250)
-
-![Screenshot](screenshots/03.png =250x250)
+https://github.com/MrLaki5/Data-over-sound
+com.github.sharish:CreditCardView:v1.0.4
