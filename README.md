@@ -14,7 +14,7 @@ making a comuuter wait and be safe by providing contactless transcation.
 
 Screenshots
 
- <img src="screenshots/01.png"/>
+ <img src="screenshots/01.png" width="500" height="600" />
 
 ![Screenshot](screenshots/01.png =250x250)
 
