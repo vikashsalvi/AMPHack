@@ -11,3 +11,7 @@ making a comuuter wait and be safe by providing contactless transcation.
 
 
 ![Architecture](image.png)
+
+Screenshots
+
+![Architecture](screenshots/01.png)
