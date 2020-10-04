@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Start settings activity
     public void settings(View view) {
-        Intent intent= new Intent(MainActivity.this, SettingsActivity.class);
+        Intent intent= new Intent(MainActivity.this, Profile.class);
         startActivity(intent);
     }
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.AmpHack.book_transit">
+    package="com.AmpHack.book_transit"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -12,11 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.AmpHack.book_transit.Chat.Chat_Sender"
-            android:screenOrientation="portrait">
-        </activity>
+        <activity android:name=".Menu.Profile"></activity>
         <activity
-            android:name="com.AmpHack.book_transit.Menu.MainActivity"
+            android:name=".Chat.Chat_Sender"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,23 +27,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.AmpHack.book_transit.Settings.SettingsActivity"
-            android:parentActivityName="com.AmpHack.book_transit.Menu.MainActivity"
+            android:name=".Settings.SettingsActivity"
+            android:parentActivityName=".Menu.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.AmpHack.book_transit.Chat.ChatActivity"
-            android:parentActivityName="com.AmpHack.book_transit.Menu.MainActivity"
-            android:screenOrientation="portrait">
-
+            android:name=".Chat.ChatActivity"
+            android:parentActivityName=".Menu.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DataTransfer.DataTransferActivity"
+            android:parentActivityName=".Menu.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu.ReceiptActivity"
+            android:parentActivityName=".Menu.MainActivity" >
         </activity>
-        <activity
-            android:name="com.AmpHack.book_transit.DataTransfer.DataTransferActivity"
-            android:parentActivityName="com.AmpHack.book_transit.Menu.MainActivity"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name="com.AmpHack.book_transit.Menu.ReceiptActivity"
-            android:parentActivityName="com.AmpHack.book_transit.Menu.MainActivity"/>
     </application>
 
 </manifest>

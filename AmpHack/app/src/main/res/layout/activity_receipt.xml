@@ -1,11 +1,13 @@
-<LinearLayout
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="wrap_content"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.AmpHack.book_transit.Menu.ReceiptActivity"
     android:orientation="vertical">
 
-<LinearLayout
+    <LinearLayout
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
     android:orientation="vertical">
@@ -15,6 +17,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:layout_margin="16dp">
+
 
         <!-- Main Content View -->
         <LinearLayout
