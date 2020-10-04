@@ -2,11 +2,13 @@ package com.AmpHack.book_transit.Chat;
 
 import android.Manifest;
 import android.content.ContentValues;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
@@ -28,6 +30,7 @@ import java.util.List;
 
 import com.AmpHack.book_transit.Chat.Database.DbHelper;
 import com.AmpHack.book_transit.Chat.Database.MessagesTableEntry;
+import com.AmpHack.book_transit.Menu.ReceiptActivity;
 import com.AmpHack.book_transit.R;
 import com.AmpHack.book_transit.Settings.SettingsActivity;
 import com.AmpHack.book_transit.SoundClient.CallbackSendRec;
@@ -101,8 +104,6 @@ public class Chat_Sender extends AppCompatActivity implements CallbackSendRec{
         //messageText.findViewById(R.id.msg);
         mMessageRecycler.setLayoutManager(mManager);
 
-
-
     }
 
     public void send(View view){
@@ -125,6 +126,17 @@ public class Chat_Sender extends AppCompatActivity implements CallbackSendRec{
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }
+
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+
+                    Intent i=new Intent(Chat_Sender.this,ReceiptActivity.class);
+                    startActivity(i);
+                }
+            }, 3000);
+
+            //startActivity(new Intent(Chat_Sender.this, ReceiptActivity.class));
         }
     }
 

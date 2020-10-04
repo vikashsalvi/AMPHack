@@ -38,6 +38,10 @@
             android:name="com.AmpHack.book_transit.DataTransfer.DataTransferActivity"
             android:parentActivityName="com.AmpHack.book_transit.Menu.MainActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.AmpHack.book_transit.Menu.ReceiptActivity"
+            android:parentActivityName="com.AmpHack.book_transit.Menu.MainActivity"/>
     </application>
 
 </manifest>
