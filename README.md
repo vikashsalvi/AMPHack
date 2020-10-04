@@ -14,12 +14,14 @@ making a comuuter wait and be safe by providing contactless transcation.
 
 Screenshots
 
-![Architecture](screenshots/01.png =250x250)
+ <img src="screenshots/01.png"/>
 
-![Architecture](screenshots/02.png =250x250)
+![Screenshot](screenshots/01.png =250x250)
 
-![Architecture](screenshots/05.png =250x250)
+![Screenshot](screenshots/02.png =250x250)
 
-![Architecture](screenshots/06.png =250x250)
+![Screenshot](screenshots/05.png =250x250)
 
-![Architecture](screenshots/03.png =250x250)
+![Screenshot](screenshots/06.png =250x250)
+
+![Screenshot](screenshots/03.png =250x250)
