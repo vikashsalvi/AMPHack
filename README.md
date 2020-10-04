@@ -10,4 +10,4 @@ making a comuuter wait and be safe by providing contactless transcation.
 
 
 
-![Architecture](https://drive.google.com/file/d/16hIzLVF8Gg2wKJF2K42vBecM9DQQY8T_/view?usp=sharing)
+![Architecture](image.png)
