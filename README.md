@@ -9,4 +9,5 @@ The application uses ultaronic sound for transfering detaails over devices that 
 making a comuuter wait and be safe by providing contactless transcation.
 
 
-![GitHub Logo](/images/logo.png)
+
+![GitHub Logo](https://drive.google.com/file/d/16hIzLVF8Gg2wKJF2K42vBecM9DQQY8T_/view?usp=sharing)
